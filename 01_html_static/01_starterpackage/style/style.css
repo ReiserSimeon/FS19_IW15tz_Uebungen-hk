@@ -1,5 +1,21 @@
 body {
   background-color: coral;
   color: black;
+  font-family: Acme;
 
+}
+
+p {
+  padding-left: 5px;
+}
+
+.card {
+  margin: 50px;
+  background-color: white;
+  color: gray;
+  width: 600px;
+}
+
+.img-fluid {
+  max-width: 50%;
 }

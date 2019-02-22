@@ -8,36 +8,58 @@
     <meta name="description" content="static intro">
     <meta name="author" content="Vorname Name">
 
-    <!-- Hier Bootstrap integrieren -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-      <link rel="stylesheet" href="style/style.css" type="text/css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style/style.css" type="text/css"/>
 
   </head>
 
-  <body>
-      <h1> Übung 1 - Visitenkarte </h1>
-      <!-- Hier Personeninfos schreiben -->
+    <body>
+        <h1> Übung 1 - Visitenkarte </h1>
+        <!-- Hier Personeninfos schreiben -->
 
-      <script type="text/javascript">
-      // Brauchen wir hier eigentlich nicht
-      console.log("Hallo Velo!");
-      </script>
+        <script type="text/javascript">
+        // Brauchen wir hier eigentlich nicht
+        console.log("Hallo Velo!");
+        </script>
 
-    <div class="card" style="width: 500px;">
-        <h3>Name</h3>
-        <p>Strasse</p>
-        <p>Ort</p>
-        <p>Tel</p>
-        <p>mail</p>
-        <img src="img/mr.jpg" style="width: 100px; align-content: right;">
-        <h3>Was ich am besten kann</h3>
-        <ol>
-            <li>erstens</li>
-            <li>zweitens</li>
-            <li>drittens</li>
-        </ol>
-    </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="card-title">Simeon Reiser</h4>
+                        <p>Am Berg 42</br>
+                        7353 Mordor</br>
+                        Tel</br>
+                            <a href="mailto:davidsimeon.reiser@iw.htwchur.ch">davidsimeon.reiser@iw.htwchur.ch</a></br>
+                        <a href="http://www.twitter.com/" target="_blank"><span class="fa fa-twitter"></span></a>
+                        <a href="http://www.instagram.com/" target="_blank"><span class="fa fa-instagram"></span></a>
+                        <a href="http://www.facebook.com/" target="_blank"><span class="fa fa-facebook"></span></a></p>
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="img/mr.jpg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4>Was ich am besten kann</h4>
+                        <ol>
+                            <li>Dies</li>
+                            <li>Jenes</li>
+                            <li>Sonstwas</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  </body>
+    </body>
 
 </html>
